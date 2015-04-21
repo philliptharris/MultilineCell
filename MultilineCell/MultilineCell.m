@@ -34,6 +34,9 @@
 - (void)layoutSubviews {
     [super layoutSubviews];
     
+//    self.contentView.backgroundColor = [UIColor purpleColor];
+    NSLog(@"%@", NSStringFromCGRect(self.contentView.frame));
+    
     CGRect frame = CGRectMake(self.separatorInset.left, 0.0, CGRectGetWidth(self.contentView.bounds) - 2.0 * self.separatorInset.left, CGRectGetHeight(self.contentView.bounds));
     self.multilineLabel.frame = frame;
 }

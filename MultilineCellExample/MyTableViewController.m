@@ -61,7 +61,6 @@
 
 - (void)didChangePreferredContentSize:(NSNotification *)notification {
     self.font = [UIFont preferredFontForTextStyle:UIFontTextStyleBody];
-    NSLog(@"%@", self.font);
     [self.tableView setNeedsLayout];
 }
 
@@ -87,6 +86,7 @@
     MultilineCell *cell = [tableView dequeueReusableCellWithIdentifier:@"cellId"];
     if (cell == nil) {
         cell = [[MultilineCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:@"cellId"];
+        cell.accessoryType = UITableViewCellAccessoryDisclosureIndicator;
     }
     cell.multilineLabel.font = self.font;
     NSString *text = self.texts[indexPath.row];
@@ -100,10 +100,8 @@
 
 - (CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath {
     
-    NSLog(@"%@", NSStringFromUIEdgeInsets(self.tableView.separatorInset));
-    
     NSString *text = self.texts[indexPath.row];
-    CGFloat height = [MultilineCell requiredHeightForText:text tableWidth:CGRectGetWidth(tableView.bounds) font:self.font edgeInsets:UIEdgeInsetsMake(10.0, self.tableView.separatorInset.left, 10.0, self.tableView.separatorInset.left)];
+    CGFloat height = [MultilineCell requiredHeightForText:text tableWidth:CGRectGetWidth(tableView.bounds) - 34.0 font:self.font edgeInsets:UIEdgeInsetsMake(10.0, self.tableView.separatorInset.left, 10.0, self.tableView.separatorInset.left)];
     return MAX(44.0, height);
 }
 
@@ -112,7 +110,6 @@
 }
 
 - (void)tableView:(UITableView *)tableView commitEditingStyle:(UITableViewCellEditingStyle)editingStyle forRowAtIndexPath:(NSIndexPath *)indexPath {
-    
 }
 
 @end

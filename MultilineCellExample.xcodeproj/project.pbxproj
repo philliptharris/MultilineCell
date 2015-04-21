@@ -15,6 +15,9 @@
 		11141D251AE6D940008037DC /* MultilineCellExampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 11141D241AE6D940008037DC /* MultilineCellExampleTests.m */; };
 		11141D301AE6D989008037DC /* MultilineCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 11141D2F1AE6D989008037DC /* MultilineCell.m */; };
 		11141D331AE6DE7D008037DC /* MyTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 11141D321AE6DE7D008037DC /* MyTableViewController.m */; };
+		11141D361AE6F653008037DC /* SelfSizingTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 11141D351AE6F653008037DC /* SelfSizingTableViewController.m */; };
+		11141D391AE6F6A2008037DC /* MultilineSelfSizingCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 11141D381AE6F6A2008037DC /* MultilineSelfSizingCell.m */; };
+		11141D3C1AE6FFF5008037DC /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 11141D3B1AE6FFF5008037DC /* DetailViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -43,6 +46,12 @@
 		11141D2F1AE6D989008037DC /* MultilineCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MultilineCell.m; path = MultilineCell/MultilineCell.m; sourceTree = SOURCE_ROOT; };
 		11141D311AE6DE7D008037DC /* MyTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyTableViewController.h; sourceTree = "<group>"; };
 		11141D321AE6DE7D008037DC /* MyTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyTableViewController.m; sourceTree = "<group>"; };
+		11141D341AE6F653008037DC /* SelfSizingTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SelfSizingTableViewController.h; sourceTree = "<group>"; };
+		11141D351AE6F653008037DC /* SelfSizingTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SelfSizingTableViewController.m; sourceTree = "<group>"; };
+		11141D371AE6F6A2008037DC /* MultilineSelfSizingCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MultilineSelfSizingCell.h; sourceTree = "<group>"; };
+		11141D381AE6F6A2008037DC /* MultilineSelfSizingCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MultilineSelfSizingCell.m; sourceTree = "<group>"; };
+		11141D3A1AE6FFF5008037DC /* DetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
+		11141D3B1AE6FFF5008037DC /* DetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -93,6 +102,12 @@
 				11141D321AE6DE7D008037DC /* MyTableViewController.m */,
 				11141D2E1AE6D989008037DC /* MultilineCell.h */,
 				11141D2F1AE6D989008037DC /* MultilineCell.m */,
+				11141D341AE6F653008037DC /* SelfSizingTableViewController.h */,
+				11141D351AE6F653008037DC /* SelfSizingTableViewController.m */,
+				11141D371AE6F6A2008037DC /* MultilineSelfSizingCell.h */,
+				11141D381AE6F6A2008037DC /* MultilineSelfSizingCell.m */,
+				11141D3A1AE6FFF5008037DC /* DetailViewController.h */,
+				11141D3B1AE6FFF5008037DC /* DetailViewController.m */,
 				11141D081AE6D940008037DC /* Supporting Files */,
 			);
 			path = MultilineCellExample;
@@ -225,9 +240,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				11141D331AE6DE7D008037DC /* MyTableViewController.m in Sources */,
+				11141D391AE6F6A2008037DC /* MultilineSelfSizingCell.m in Sources */,
 				11141D301AE6D989008037DC /* MultilineCell.m in Sources */,
 				11141D0E1AE6D940008037DC /* AppDelegate.m in Sources */,
 				11141D0B1AE6D940008037DC /* main.m in Sources */,
+				11141D361AE6F653008037DC /* SelfSizingTableViewController.m in Sources */,
+				11141D3C1AE6FFF5008037DC /* DetailViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
