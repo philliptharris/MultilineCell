@@ -9,11 +9,12 @@
 /* Begin PBXBuildFile section */
 		11141D0B1AE6D940008037DC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 11141D0A1AE6D940008037DC /* main.m */; };
 		11141D0E1AE6D940008037DC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 11141D0D1AE6D940008037DC /* AppDelegate.m */; };
-		11141D111AE6D940008037DC /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 11141D101AE6D940008037DC /* ViewController.m */; };
 		11141D141AE6D940008037DC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 11141D121AE6D940008037DC /* Main.storyboard */; };
 		11141D161AE6D940008037DC /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 11141D151AE6D940008037DC /* Images.xcassets */; };
 		11141D191AE6D940008037DC /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 11141D171AE6D940008037DC /* LaunchScreen.xib */; };
 		11141D251AE6D940008037DC /* MultilineCellExampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 11141D241AE6D940008037DC /* MultilineCellExampleTests.m */; };
+		11141D301AE6D989008037DC /* MultilineCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 11141D2F1AE6D989008037DC /* MultilineCell.m */; };
+		11141D331AE6DE7D008037DC /* MyTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 11141D321AE6DE7D008037DC /* MyTableViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,14 +33,16 @@
 		11141D0A1AE6D940008037DC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		11141D0C1AE6D940008037DC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		11141D0D1AE6D940008037DC /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		11141D0F1AE6D940008037DC /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		11141D101AE6D940008037DC /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		11141D131AE6D940008037DC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		11141D151AE6D940008037DC /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		11141D181AE6D940008037DC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		11141D1E1AE6D940008037DC /* MultilineCellExampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MultilineCellExampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		11141D231AE6D940008037DC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		11141D241AE6D940008037DC /* MultilineCellExampleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MultilineCellExampleTests.m; sourceTree = "<group>"; };
+		11141D2E1AE6D989008037DC /* MultilineCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MultilineCell.h; path = MultilineCell/MultilineCell.h; sourceTree = SOURCE_ROOT; };
+		11141D2F1AE6D989008037DC /* MultilineCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MultilineCell.m; path = MultilineCell/MultilineCell.m; sourceTree = SOURCE_ROOT; };
+		11141D311AE6DE7D008037DC /* MyTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyTableViewController.h; sourceTree = "<group>"; };
+		11141D321AE6DE7D008037DC /* MyTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyTableViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,11 +86,13 @@
 			children = (
 				11141D0C1AE6D940008037DC /* AppDelegate.h */,
 				11141D0D1AE6D940008037DC /* AppDelegate.m */,
-				11141D0F1AE6D940008037DC /* ViewController.h */,
-				11141D101AE6D940008037DC /* ViewController.m */,
 				11141D121AE6D940008037DC /* Main.storyboard */,
 				11141D151AE6D940008037DC /* Images.xcassets */,
 				11141D171AE6D940008037DC /* LaunchScreen.xib */,
+				11141D311AE6DE7D008037DC /* MyTableViewController.h */,
+				11141D321AE6DE7D008037DC /* MyTableViewController.m */,
+				11141D2E1AE6D989008037DC /* MultilineCell.h */,
+				11141D2F1AE6D989008037DC /* MultilineCell.m */,
 				11141D081AE6D940008037DC /* Supporting Files */,
 			);
 			path = MultilineCellExample;
@@ -219,7 +224,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				11141D111AE6D940008037DC /* ViewController.m in Sources */,
+				11141D331AE6DE7D008037DC /* MyTableViewController.m in Sources */,
+				11141D301AE6D989008037DC /* MultilineCell.m in Sources */,
 				11141D0E1AE6D940008037DC /* AppDelegate.m in Sources */,
 				11141D0B1AE6D940008037DC /* main.m in Sources */,
 			);
@@ -348,6 +354,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = MultilineCellExample/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -358,6 +365,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = MultilineCellExample/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
