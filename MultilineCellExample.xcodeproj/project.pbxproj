@@ -18,6 +18,7 @@
 		11141D361AE6F653008037DC /* SelfSizingTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 11141D351AE6F653008037DC /* SelfSizingTableViewController.m */; };
 		11141D391AE6F6A2008037DC /* MultilineSelfSizingCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 11141D381AE6F6A2008037DC /* MultilineSelfSizingCell.m */; };
 		11141D3C1AE6FFF5008037DC /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 11141D3B1AE6FFF5008037DC /* DetailViewController.m */; };
+		F4C0D2E41AE7362E00727758 /* DetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F4C0D2E31AE7362E00727758 /* DetailViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,6 +53,7 @@
 		11141D381AE6F6A2008037DC /* MultilineSelfSizingCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MultilineSelfSizingCell.m; sourceTree = "<group>"; };
 		11141D3A1AE6FFF5008037DC /* DetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
 		11141D3B1AE6FFF5008037DC /* DetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
+		F4C0D2E31AE7362E00727758 /* DetailViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DetailViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -108,6 +110,7 @@
 				11141D381AE6F6A2008037DC /* MultilineSelfSizingCell.m */,
 				11141D3A1AE6FFF5008037DC /* DetailViewController.h */,
 				11141D3B1AE6FFF5008037DC /* DetailViewController.m */,
+				F4C0D2E31AE7362E00727758 /* DetailViewController.xib */,
 				11141D081AE6D940008037DC /* Supporting Files */,
 			);
 			path = MultilineCellExample;
@@ -222,6 +225,7 @@
 				11141D141AE6D940008037DC /* Main.storyboard in Resources */,
 				11141D191AE6D940008037DC /* LaunchScreen.xib in Resources */,
 				11141D161AE6D940008037DC /* Images.xcassets in Resources */,
+				F4C0D2E41AE7362E00727758 /* DetailViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -442,6 +446,7 @@
 				11141D2A1AE6D940008037DC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		11141D2B1AE6D940008037DC /* Build configuration list for PBXNativeTarget "MultilineCellExampleTests" */ = {
 			isa = XCConfigurationList;
@@ -450,6 +455,7 @@
 				11141D2D1AE6D940008037DC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
